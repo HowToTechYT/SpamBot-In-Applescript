@@ -1,4 +1,3 @@
-
 display dialog "Which appication do you want to spam in" buttons {"More", "TextEdit"} default button 2 with title "Spam Bot"
 set the button_pressed to the button returned of the result
 if the button_pressed is "More" then
